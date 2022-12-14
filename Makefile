@@ -38,4 +38,4 @@ norm:
 	@norminette $(wildcard inc/*.h)
 	@norminette $(wildcard Libft/*.c)
 
-.PHONY: all re clean fclean norm git $(NAME):
+.PHONY: all re $(NAME) clean fclean norm git 
